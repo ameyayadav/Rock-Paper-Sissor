@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rock,Paper Sissor</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+ 
+</head>
+
+<body>
+
+  
+
+  <div class="container">
+    <h1 id="demo">Let's Play</h1>
+
+    <div class="game" >
+      <p>Player 1</p>
+      <img class="rock" id="player1" src="./image/rock.png" alt="">
+
+    </div>
+
+    <div class="game" >
+      <p>Player 2</p>
+      <img class="paper" id="player2" src="./image/paper.jfif" alt="">
+
+    </div>
+
+  </div>
+
+
+  <div class="down">
+
+   
+
+    <button id="rockone" onclick="game(1)"> <!--Rock=1 value-->
+     Rock
+    </button>
+
+    <button onclick="game(2)"> <!--Paper=2 value-->
+     Paper
+    </button>
+
+
+    <button onclick="game(3)"> <!--Sissor=3 value-->
+     Sissor
+    </button>
+
+    <div> 
+      Player 1 wins:
+      <p id= "chicken dinner"></p>
+      Player 2 wins:
+      <p id="winner"> </p>
+
+    </div>
+
+  </div>
+  <script src="index.js">
+
+
+  </script>
+</body>
+
+</html>
